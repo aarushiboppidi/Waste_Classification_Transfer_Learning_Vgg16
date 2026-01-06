@@ -14,6 +14,7 @@ TrashNet dataset from Kaggle: (https://www.kaggle.com/datasets/feyzazkefe/trashn
 - Pretrained VGG16 (`include_top=False`)
 - GlobalAveragePooling → Dense(256) → Dropout(0.5) → Softmax
 - Adam optimizer (lr = 1e-4)
+
 **Baseline CNN**
 - 3 Conv blocks (32 → 64 → 128)
 - Dense(128) + Dropout(0.5)
